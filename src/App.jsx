@@ -1,11 +1,11 @@
 import React from "react";
-import MyComponent from "./quil/Quill";
+import Editor from "./quil/Editor";
 
 const App = () => {
   return (
-    <>
-      <MyComponent />
-    </>
+    <div className="mt-5">
+      <Editor />
+    </div>
   );
 };
 
